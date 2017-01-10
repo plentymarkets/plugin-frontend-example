@@ -1,0 +1,1 @@
+# plugin-frontend-example
