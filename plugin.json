@@ -1,0 +1,21 @@
+{
+  "version": "1.0.0",
+  "name": "PluginFrontendExample",
+  "description": "Virtual account plugin for plentymarketplace",
+  "author": "plentymarkets GmbH",
+  "keywords": ["Frontend Example", "Frontend Beispiel", "example", "plentymarkets", "plenty"],
+  "type": "template",
+  "namespace": "PluginFrontendExample",
+  "require": [],
+  "serviceProvider": "PluginFrontendExample\\Providers\\PluginFrontendExampleServiceProvider",
+  "dataProviders": [
+      {
+        "key":"PluginFrontendExample\\Providers\\PluginFrontendExampleDataProvider",
+        "name":"Show data",
+        "description": "Show PluginFrontendExample data in a Data Container"
+      }
+  ],
+  "runOnBuild": [
+    "PluginFrontendExample\\Migrations\\PluginFrontendExampleCreateDbMigration_1_0_0"
+  ]
+}

@@ -1,0 +1,37 @@
+[
+
+  {
+    "tab"     : "Grundeinstellungen",
+    "key"     : "categoryId",
+    "label"   : "Kategorie des Spendenobjekts",
+    "type"    : "category_select"
+  },
+  {
+    "tab"     : "Grundeinstellungen",
+    "key"     : "isDonationAmountCountable",
+    "label"   : "Statistik für Spendenbetrag aktivieren?",
+    "type"    : "checkbox",
+    "default" : true
+  },
+  {
+    "tab"     : "Grundeinstellungen",
+    "key"     : "donationAmountDescriptionText",
+    "label"   : "Spenden-Anzeigetext",
+    "type"    : "text",
+    "default" :"Aktuell gespendet: "
+  },
+  {
+    "tab"     : "Grundeinstellungen",
+    "key"     : "isDonationCounterActive",
+    "label"   : "Statistik für Anzahl der Spenden aktivieren?",
+    "type"    : "checkbox",
+    "default" : true
+  },
+  {
+    "tab"     : "Grundeinstellungen",
+    "key"     : "donationCounterDescriptionText",
+    "label"   : "Spendenzähler-Anzeigetext",
+    "type"    : "text",
+    "default" :"Insgesamt gemachte Spenden: "
+  }
+]

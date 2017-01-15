@@ -1,0 +1,15 @@
+{% set service      =  pluginFrontendExampleDonationService.donationService %}
+{% set amountDescr  =  config("PluginFrontendExample.donationAmountDescriptionText")%}
+{% set counterDescr =  config("PluginFrontendExample.donationCounterDescriptionText")%}
+{% if(config("PluginFrontendExample.isDonationAmountCountable") == true or  config("PluginFrontendExample.isDonationCounterActive") == true)%}
+    <table>
+        <tr>
+            <th width="200px"><h4>{{ amountDescr }}</h4></th>
+            <th width="200px"><h2>{{ service.getDonationAmountCounter()|round(2, 'common')|number_format(2, ',', '.') }} €</h2></th>
+        </tr>
+        <tr>
+            <th width="200px"><h5>{{ counterDescr }}</h5></th>
+            <th width="200px"><h3>{{ service.getDonationCounter() }} </h3></th>
+        </tr>
+    </table>
+{% endif %}
