@@ -15,6 +15,10 @@
         "description": "Show PluginFrontendExample data in a Data Container"
       }
   ],
+  "dependencies":{
+    "plentymarkets/plugin-io":"*",
+    "plentymarkets/plugin-ceres":"*"
+  }
   "runOnBuild": [
     "PluginFrontendExample\\Migrations\\PluginFrontendExampleCreateDbMigration_1_0_0"
   ]
