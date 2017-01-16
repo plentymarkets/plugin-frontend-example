@@ -3,7 +3,7 @@
   {
     "tab"     : "Grundeinstellungen",
     "key"     : "categoryId",
-    "label"   : "Kategorie des Spendenobjekts",
+    "label"   : "Kategorie",
     "type"    : "category_select"
   },
   {
