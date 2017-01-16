@@ -16,7 +16,7 @@
   {
     "tab"     : "Grundeinstellungen",
     "key"     : "donationAmountDescriptionText",
-    "label"   : "Spenden-Anzeigetext",
+    "label"   : "Spendenbetrag-Anzeigetext",
     "type"    : "text",
     "default" :"Aktuell gespendet: "
   },
