@@ -13,6 +13,14 @@ This plugin requires the official Webshop Template Plugin Ceres and IO, develope
 
 For detailed information about plugin provisioning refer to [plentymarkets developers](https://developers.plentymarkets.com/dev-doc/basics#plugin-provisioning).
 
+### Setup
+
+- Install the plugin.
+- Create a category with name (e.g. Donation)
+- Create a item for previously created category.
+- Go to **Plenty->Plugins** open the PluginFrontendExample and link the field "Category" with the created category.
+- Go to tab Content (the third tab in the plugin menu), and set some container to be used by PluginFrontendExample.
+
 ## Plugin documentation
 
 - Learn how to create your [first plentymarkets plugin](https://developers.plentymarkets.com/tutorials/helloworld)

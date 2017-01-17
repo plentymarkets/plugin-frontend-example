@@ -18,7 +18,7 @@
   "dependencies":{
     "plentymarkets/plugin-io":"*",
     "plentymarkets/plugin-ceres":"*"
-  }
+  },
   "runOnBuild": [
     "PluginFrontendExample\\Migrations\\PluginFrontendExampleCreateDbMigration_1_0_0"
   ]
