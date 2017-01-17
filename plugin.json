@@ -6,7 +6,7 @@
   "keywords": ["Frontend Example", "Frontend Beispiel", "example", "plentymarkets", "plenty"],
   "type": "template",
   "namespace": "PluginFrontendExample",
-  "require": [ {"PluginIO": "", "PluginCeres":"" }],
+  "require": [ "PluginIO", "PluginCeres" ],
   "serviceProvider": "PluginFrontendExample\\Providers\\PluginFrontendExampleServiceProvider",
   "dataProviders": [
       {
@@ -15,6 +15,7 @@
         "description": "Show PluginFrontendExample data in a Data Container"
       }
   ],
+  "dependencies":"",
   "runOnBuild": [
     "PluginFrontendExample\\Migrations\\PluginFrontendExampleCreateDbMigration_1_0_0"
   ]
