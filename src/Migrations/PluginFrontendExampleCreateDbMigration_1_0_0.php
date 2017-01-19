@@ -9,10 +9,8 @@
 namespace PluginFrontendExample\Migrations;
 
 use Plenty\Modules\Plugin\DataBase\Contracts\Migrate;
-use PluginFrontendExample\Models\PluginFrontendExample;
 use PluginFrontendExample\Models\PluginFrontendExampleDonationAccount;
 use PluginFrontendExample\Models\PluginFrontendExampleDonationTransactions;
-use PluginFrontendExample\Models\PluginFrontendExampleTransactions;
 
 class PluginFrontendExampleCreateDbMigration_1_0_0
 {
