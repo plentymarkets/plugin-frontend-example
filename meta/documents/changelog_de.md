@@ -5,8 +5,8 @@
 ### Hinzugefügt
 Dateien hinzugefügt, um die Plugin-Anforderungen des plentyMarketplace zu erfüllen:
 
-- `changelog_en.md` hinzugefügt
-- `changelog_de.md` hinzugefügt
+- `changelog_en.md`  hinzugefügt
+- `changelog_de.md`  hinzugefügt
 - `user_guide_en.md` hinzugefügt
 - `user_guide_de.md` hinzugefügt
 - Icons und Bilder im **meta**-Ordner hinzugefügt

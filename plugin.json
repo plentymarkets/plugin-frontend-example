@@ -1,22 +1,22 @@
 {
-  "version": "1.0.1",
-  "name": "PluginFrontendExample",
-  "description": "Frontend Example plugin for plentymarketplace",
-  "author": "plentymarkets GmbH",
-  "keywords": ["Frontend Example", "Frontend Beispiel", "example", "plentymarkets", "plenty"],
-  "type": "template",
-  "namespace": "PluginFrontendExample",
-  "require":  [ "PluginIO", "PluginCeres" ],
-  "serviceProvider": "PluginFrontendExample\\Providers\\PluginFrontendExampleServiceProvider",
+  "version":            "1.0.1",
+  "name":               "PluginFrontendExample",
+  "description":        "Frontend Example plugin for plentymarketplace",
+  "author":             "plentymarkets GmbH",
+  "license":            "AGPL-3.0",
+  "keywords":           ["Frontend Example", "Frontend Beispiel", "example", "plentymarkets", "plenty"],
+  "type":               "template",
+  "namespace":          "PluginFrontendExample",
+  "authorIcon":         "icon_author_xs.png",
+  "require":  [         "PluginIO", "PluginCeres" ],
+  "serviceProvider":    "PluginFrontendExample\\Providers\\PluginFrontendExampleServiceProvider",
   "dataProviders": [
       {
-        "key":"PluginFrontendExample\\Providers\\PluginFrontendExampleDataProvider",
-        "name":"Show data",
-        "description": "Show PluginFrontendExample data in a Data Container"
+        "key":          "PluginFrontendExample\\Providers\\PluginFrontendExampleDataProvider",
+        "name":         "Show data",
+        "description":  "Show PluginFrontendExample data in a Data Container"
       }
   ],
-  "dependencies":"",
-  "runOnBuild": [
-    "PluginFrontendExample\\Migrations\\PluginFrontendExampleCreateDbMigration_1_0_0"
-  ]
+  "dependencies":       "",
+  "runOnBuild": [       "PluginFrontendExample\\Migrations\\PluginFrontendExampleCreateDbMigration_1_0_0" ]
 }

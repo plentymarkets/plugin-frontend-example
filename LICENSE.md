@@ -1,4 +1,4 @@
-plentymarkets plugin to do list
+plentymarkets plugin frontend example
 
 Copyright © 2017 plentymarkets GmbH
 

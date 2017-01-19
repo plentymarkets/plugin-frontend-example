@@ -1,4 +1,4 @@
-# Release Notes for ToDoList
+# Release Notes for PluginFrontendExample
  
 ## v1.0.1 (2017-01-16)
  
