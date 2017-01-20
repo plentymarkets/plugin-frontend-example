@@ -4,18 +4,22 @@ This is the frontend example plugin developed by plentymarkets GmbH.
  
 ## Getting started and requirements
  
-Please follow the following steps to setup the plugin:
+Please follow the next steps to setup the plugin:
  
 ### Plugin setup and configuration
 
 - Install the plugin.
-- Create a item and link it with category **Donation**.
-- Go to **Plenty->Plugins** open the PluginFrontendExample and link the field "Category" with **Donation**.
-- Go to tab Content (the third tab in the plugin menu), and set some container to be used by PluginFrontendExample.
+- Create an item and link it with the category **Donation**.
+- Go to **Start » Plugins**.
+- Open the PluginFrontendExample.
+- Link the field **Category** with **Donation**.
+- Go to tab **Content**.
+- Activate a container to be used by PluginFrontendExample.
+- **Save** the settings.
 
 ### The first feature of the plugin
  
-The plugin will count items of type Donation and show the total number of bought items and total amount in specific content containers. 
+The plugin will count items of the type **Donation** and show the total number of bought items and total amount in the specified content containers. 
  
 ### Important
  
