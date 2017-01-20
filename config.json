@@ -9,7 +9,7 @@
   {
     "tab"     : "Grundeinstellungen",
     "key"     : "isDonationAmountCountable",
-    "label"   : "Statistik für Spendenbetrag aktivieren?",
+    "label"   : "Statistik für Spendenbetrag aktivieren",
     "type"    : "checkbox",
     "default" : true
   },
@@ -23,7 +23,7 @@
   {
     "tab"     : "Grundeinstellungen",
     "key"     : "isDonationCounterActive",
-    "label"   : "Statistik für Anzahl der Spenden aktivieren?",
+    "label"   : "Statistik für Anzahl der Spenden aktivieren",
     "type"    : "checkbox",
     "default" : true
   },
