@@ -41,12 +41,26 @@ class PluginFrontendExampleRegisterTransaction
      */
     private $config;
 
+    /**
+     * PluginFrontendExampleRegisterTransaction constructor.
+     *
+     * @param Application $app
+     * @param ConfigRepository $configRepo
+     */
     public function __construct(Application $app, ConfigRepository $configRepo)
     {
         $this->app      = $app;
         $this->config   = $configRepo;
     }
 
+    /**
+     * Register new transaction
+     *
+     * Create new DB entry to register a new transaction
+     *
+     * @param EventProceduresTriggered $eventTriggered
+     * @param PluginFrontendExampleDonationService $donationService
+     */
     public function registerTransaction(EventProceduresTriggered $eventTriggered, PluginFrontendExampleDonationService $donationService)
     {
         /** @var Order $order */
@@ -65,7 +79,6 @@ class PluginFrontendExampleRegisterTransaction
             }
         }
 
-        $categoryId = (int)$this->config->get('PluginFrontendExample.categoryId');
         /** @var OrderItem[] $orderItem */
         $orderItems = $order->orderItems;
         /** @var RecordList $item */
@@ -93,7 +106,13 @@ class PluginFrontendExampleRegisterTransaction
         }
     }
 
-
+    /**
+     * Load
+     *
+     * @param Collection $orderItems
+     *
+     * @return mixed|RecordList|void
+     */
     private function loadItemsForCategory(Collection $orderItems)
     {
         $ids = array();

@@ -8,8 +8,6 @@
 
 namespace PluginFrontendExample\Models;
 
-use PluginFrontendExample\Models\PluginFrontendExample;
-
 use Plenty\Modules\Plugin\DataBase\Contracts\Model;
 
 /**

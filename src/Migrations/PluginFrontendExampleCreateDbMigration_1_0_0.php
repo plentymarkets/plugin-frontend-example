@@ -56,6 +56,9 @@ class PluginFrontendExampleCreateDbMigration_1_0_0
 
     }
 
+    /**
+     * Create a new Category
+     */
     private function createCategory()
     {
         foreach($this->categoriesToCreate as $configKey => $categories)

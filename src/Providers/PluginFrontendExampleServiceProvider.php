@@ -19,11 +19,17 @@ use Plenty\Plugin\Templates\Twig;
 
 class PluginFrontendExampleServiceProvider extends ServiceProvider
 {
+
     public function register()
     {
         $this->getApplication()->register(PluginFrontendExampleRouteServiceProvider::class);
     }
 
+    /**
+     * @param Twig $twig
+     * @param Dispatcher $eventDispatcher
+     * @param EventProceduresService $eventProceduresService
+     */
     public function boot(Twig $twig, Dispatcher $eventDispatcher, EventProceduresService $eventProceduresService)
     {
         $twig->addExtension(TwigServiceProvider::class);
