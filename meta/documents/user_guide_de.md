@@ -1,38 +1,39 @@
-# Plugin Frontend Example
+# Plugin Frontend Beispiel
  
-This is the frontend example plugin developed by plentymarkets GmbH.
+Hierbei handelt es sich um das von plentymarkets GmbH entwickelte Frontend-Plugin-Beispiel.
  
-## Getting started and requirements
+## Einstieg und Anforderungen
  
-Please follow the next steps to setup the plugin:
+Folgen Sie den nächsten Schritten, um das Plugin einzurichten:
  
-### Plugin setup and configuration
+### Plugin-Installation and Konfiguration
 
-- Install the plugin.
-- Create an item and link it with the category **Donation**.
-- Go to **Start » Plugins**.
-- Open the PluginFrontendExample.
-- Link the field **Category** with **Donation**.
-- Go to tab **Content**.
-- Activate a container to be used by PluginFrontendExample.
-- **Save** the settings.
+- Installieren Sie das Plugin.
+- Erstellen Sie einen Artikel.
+- Verknüpfen Sie den Artikel mit der Kategorie **Spende**.
+- Öffnen Sie das Menü **Start » Plugins**.
+- Öffnen Sie das Plugin PluginFrontendExample.
+- Verknüpfen Sie das Feld **Kategorie** mit **Spende**.
+- Öffnen Sie das Tab **Content**.
+- Aktivieren Sie einen Container, der von PluginFrontendExample verwendet wird.
+- **Speichern** Sie die Einstellungen.
 
-### The first feature of the plugin
+### Die erste Funktion des Plugins
  
-The plugin will count items of the type **Donation** and show the total number of bought items and total amount in the specified content containers. 
+Das Plugin zählt Artikel vom Typ **Spende** und zeigt die Gesamtzahl von gekauften Spendenartikeln sowie den Gesamtbetrag in den aktivierten Containern an. 
  
-### Important
+### Wichtig
  
 <div class="alert alert-warning" role="alert">
-    Don't use this Plugin in a production system.
+    Verwenden Sie dieses Plugin nicht in Ihrem Produktiv-System.
 </div>
  
-### Note
+### Hinweis
  
 <div class="alert alert-info" role="alert">
-    This plugin is only for demonstration purpose.
+    Hierbei handelt es sich um ein Beispiel-Plugin. Das Plugin dient ausschließlich zu Demonstrationszwecken.
 </div>
  
-## License
+## Lizenz
  
-See License
+Informationen zur Lizenz finden Sie in der Datei **LICENSE.md**
