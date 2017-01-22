@@ -16,6 +16,16 @@ Please follow the next steps to setup the plugin:
 - Go to tab **Content**.
 - Activate a container to be used by PluginFrontendExample.
 - **Save** the settings.
+- Go to **Settings » Orders » Event procedures**.
+- Add new **Event procedure** by clicking on **+** button.
+- Enter the name of the event, e.g. **Donation**.
+- Enter the event type as payment **Complete** and click **Save**.
+- In the event procedures menu, go to **Payment » Complete » Donation**.
+- Enter a new procedure by clicking the **+** button.
+- Wait for the folder **Plugins** to be loaded and open it.
+- Select **Register donation** and click on **+ Add**.
+- **Activate** and **save** the event procedure.
+
 
 ### The first feature of the plugin
  

@@ -31,8 +31,9 @@ class PluginFrontendExampleCreateDbMigration_1_0_0
     /**
      * @var array
      */
-    private $categoriesToCreate = [ 'global.category.home' => [ 'de' => 'Spende',
-                                                                'en' => 'Donation' ]    ];
+    private $categoriesToCreate = [ 'global.category.frontendExample' =>
+                                        [ 'de' => ['name' => 'Spende',    'nameUrl' => 'frontendExample'],
+                                          'en' => ['name' => 'Donation',  'nameUrl' => 'frontendExample'] ] ];
 
     /**
      * CategoriesMigration constructor.
@@ -66,11 +67,10 @@ class PluginFrontendExampleCreateDbMigration_1_0_0
             $details = [];
             foreach ($categories as $lang => $name)
             {
-                $details[] = [
-                    'plentyId' => 0,
-                    'lang'     => $lang,
-                    'name'     => $name
-                ];
+                $details[] = [  'plentyId' => 0,
+                                'lang'     => $lang,
+                                'name'     => $name['name'],
+                                'nameUrl'  => $name['nameUrl'] ];
             }
 
             $newCategory = [ 'parentCategoryId' => '',
