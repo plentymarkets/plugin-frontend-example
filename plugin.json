@@ -7,8 +7,8 @@
   "keywords":           ["Frontend Example", "Frontend Beispiel", "example", "plentymarkets", "plenty"],
   "type":               "template",
   "namespace":          "PluginFrontendExample",
-  "authorIcon":         "icon_author_xs.png",
-  "require":  [         "PluginIO", "PluginCeres" ],
+  "authorIcon":         "",
+  "require":  [         "PluginIO" ],
   "serviceProvider":    "PluginFrontendExample\\Providers\\PluginFrontendExampleServiceProvider",
   "dataProviders": [
       {
